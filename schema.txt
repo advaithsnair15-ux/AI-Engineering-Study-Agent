@@ -1,0 +1,19 @@
+AI Engineering Study Agent — Architecture
+
+User
+  |
+  v
+Streamlit Web Interface
+  |
+  v
+AI Agent / Task Router
+  |------> Topic Explainer
+  |------> MCQ Generator
+  |------> Formula Calculator
+  |------> Study Planner
+  |
+  v
+Formatted result displayed to user
+
+Optional Gemini API powers topic-specific explanations, generated MCQs, and personalized plans.
+Without an API key, the app uses demo fallback responses.
